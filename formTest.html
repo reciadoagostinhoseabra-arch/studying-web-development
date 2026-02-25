@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário Completo</title>
+</head>
+<body>
+
+    <h1>Formulário de Cadastro Completo</h1>
+
+    <form action="#" method="post">
+
+        <!-- Texto -->
+        <label>Nome Completo:</label>
+        <input type="text" name="nome" placeholder="Digite seu nome" required>
+        <br><br>
+
+        <!-- Email -->
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="exemplo@email.com" required>
+        <br><br>
+
+        <!-- Senha -->
+        <label>Senha:</label>
+        <input type="password" name="senha" minlength="6" required>
+        <br><br>
+
+        <!-- Número -->
+        <label>Idade:</label>
+        <input type="number" name="idade" min="0" max="120">
+        <br><br>
+
+        <!-- Telefone -->
+        <label>Telefone:</label>
+        <input type="tel" name="telefone" placeholder="+244 900 000 000">
+        <br><br>
+
+        <!-- URL -->
+        <label>Website:</label>
+        <input type="url" name="site">
+        <br><br>
+
+        <!-- Data -->
+        <label>Data de Nascimento:</label>
+        <input type="date" name="data">
+        <br><br>
+
+        <!-- Hora -->
+        <label>Hora de atendimento:</label>
+        <input type="time" name="hora">
+        <br><br>
+
+        <!-- Mês -->
+        <label>Mês:</label>
+        <input type="month" name="mes">
+        <br><br>
+
+        <!-- Semana -->
+        <label>Semana:</label>
+        <input type="week" name="semana">
+        <br><br>
+
+        <!-- Cor -->
+        <label>Escolha uma cor:</label>
+        <input type="color" name="cor">
+        <br><br>
+
+        <!-- Range -->
+        <label>Nível de satisfação:</label>
+        <input type="range" name="satisfacao" min="0" max="10">
+        <br><br>
+
+        <!-- Radio -->
+        <label>Gênero:</label>
+        <input type="radio" name="genero" value="masculino"> Masculino
+        <input type="radio" name="genero" value="feminino"> Feminino
+        <br><br>
+
+        <!-- Checkbox -->
+        <label>Interesses:</label>
+        <input type="checkbox" name="interesse" value="programacao"> Programação
+        <input type="checkbox" name="interesse" value="design"> Design
+        <input type="checkbox" name="interesse" value="marketing"> Marketing
+        <br><br>
+
+        <!-- Select -->
+        <label>País:</label>
+        <select name="pais">
+            <option>Angola</option>
+            <option>Brasil</option>
+            <option>Portugal</option>
+            <option>Moçambique</option>
+        </select>
+        <br><br>
+
+        <!-- Datalist -->
+        <label>Escolha uma linguagem:</label>
+        <input list="linguagens" name="linguagem">
+        <datalist id="linguagens">
+            <option value="Java">
+            <option value="PHP">
+            <option value="JavaScript">
+            <option value="Python">
+        </datalist>
+        <br><br>
+
+        <!-- Textarea -->
+        <label>Mensagem:</label><br>
+        <textarea name="mensagem" rows="4" cols="40"></textarea>
+        <br><br>
+
+        <!-- Arquivo -->
+        <label>Upload de Arquivo:</label>
+        <input type="file" name="arquivo">
+        <br><br>
+
+        <!-- Hidden -->
+        <input type="hidden" name="token" value="123456">
+
+        <!-- Botões -->
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        <button type="button">Botão Normal</button>
+
+    </form>
+
+</body>
+</html>
