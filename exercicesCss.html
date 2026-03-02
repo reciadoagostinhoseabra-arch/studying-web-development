@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício de CSS</title>
+
+    <style>
+
+        /* Estilo geral da página */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 20px;
+        }
+
+        /* ID */
+        #titulo-principal {
+            color: darkblue;
+            text-align: center;
+        }
+
+        /* Classe */
+        .destaque {
+            color: white;
+            background-color: green;
+            padding: 5px;
+        }
+
+        /* Estilizando parágrafos */
+        p {
+            font-size: 18px;
+        }
+
+        /* Caixa com classe */
+        .caixa {
+            border: 2px solid black;
+            padding: 15px;
+            margin-top: 10px;
+            background-color: white;
+        }
+
+        /* Estilo da tabela */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th {
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+        }
+
+        td {
+            border: 1px solid gray;
+            padding: 8px;
+            text-align: center;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <h1 id="titulo-principal">Minha Página de Exercício</h1>
+
+    <p>Este é um exemplo de parágrafo normal.</p>
+
+    <p class="destaque">Este parágrafo usa uma CLASSE chamada destaque.</p>
+
+    <div class="caixa">
+        <h3>Área de Informação</h3>
+        <p>Aqui temos uma caixa estilizada usando classe.</p>
+    </div>
+
+    <h2>Lista de Alunos</h2>
+
+    <table>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Curso</th>
+        </tr>
+        <tr>
+            <td>João</td>
+            <td>20</td>
+            <td>Informática</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td>22</td>
+            <td>Engenharia</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>19</td>
+            <td>Design</td>
+        </tr>
+    </table>
+
+</body>
+</html>
