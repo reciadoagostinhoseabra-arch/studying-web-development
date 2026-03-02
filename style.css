@@ -12,3 +12,18 @@ html{
     background-color: yellow;
     margin-left: 30px;
 }
+
+#limaster{
+    color:gray;
+}
+
+#litamara{
+    color: blue;
+}
+
+.liclass{
+    font-size: 15pt;
+    color: red;
+}
+
+
