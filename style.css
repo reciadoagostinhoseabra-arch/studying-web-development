@@ -15,6 +15,7 @@ html{
 
 #limaster{
     color:gray;
+    font-style: oblique;
 }
 
 #litamara{
@@ -26,4 +27,11 @@ html{
     color: red;
 }
 
+.liclass:hover{
+    color: white;
+}
+
+a:active{
+    color: white;
+}
 
