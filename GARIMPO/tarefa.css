@@ -5,9 +5,16 @@ center {
   #rc{
     color: green;
   }
-  .rt{
-
-    color: mediumblue;
-    border-collapse: collapse;
-  }
   
+  .rt:hover{
+    color: chartreuse;
+  }
+  #bv{
+    color: blue;
+  }
+  #bi{
+    color: blue;
+  }
+  #ba{
+    color: blue;
+  }
