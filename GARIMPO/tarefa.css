@@ -1,13 +1,20 @@
-center {
+
+cc{
+  font-family: Arial, Helvetica, sans-serif;
+}
+  center {
    color: darkblue;
+   
   }
 
   #rc{
-    color: green;
+    color: whitesmoke;
+    background-color: darkgreen;
   }
   
   .rt:hover{
-    color: chartreuse;
+    color: darkgreen;
+    font: weight 300x; ;
   }
   #bv{
     color: blue;
@@ -17,4 +24,20 @@ center {
   }
   #ba{
     color: blue;
+  }
+  tr:hover{
+  color: chartreuse;
+  }
+  #tt{
+    width: 1000%;
+  }
+  #ra{
+    width: 1000%;
+  }
+  table{
+    width: 100%;
+  }
+  .fl{
+    background-color: blue;
+   color: whitesmoke; 
   }
