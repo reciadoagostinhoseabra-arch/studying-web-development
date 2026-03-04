@@ -24,7 +24,7 @@ html{
 
 .liclass{
     font-size: 15pt;
-    color: red;
+    list-style-type: square;
 }
 
 .liclass:hover{
@@ -34,4 +34,5 @@ html{
 a:active{
     color: white;
 }
+
 
