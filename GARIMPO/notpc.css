@@ -1,0 +1,32 @@
+#h0{
+    color: blue;
+}
+.ul{
+    color: chartreuse;
+}
+table{
+    width: 100%;
+}
+.hea{
+    color: whitesmoke;
+    background-color: darkslategray;
+}
+.ra:hover{
+
+    color: darkgoldenrod;
+}
+#cr{
+    color: white;
+    background-color: darkblue;
+}
+.ta:hover{
+    color: darkgoldenrod;
+    
+}
+select{
+    width: 100%;
+}
+
+.cl{
+    width: 150%;
+}
