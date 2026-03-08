@@ -1,5 +1,19 @@
 #h0{
     color: blue;
+    text-align: center;
+}
+body{
+    background-color: grey;
+}
+.divcor{
+    
+    padding-left: 20px;
+   padding-bottom:20px ;
+    background-color: white;
+}
+#h0:hover{
+    text-align: center;
+    color: burlywood;
 }
 .ul{
     color: chartreuse;
@@ -13,7 +27,7 @@ table{
 }
 .ra:hover{
 
-    color: darkgoldenrod;
+    background-color: darkgray;
 }
 #cr{
     color: white;
@@ -29,4 +43,29 @@ select{
 
 .cl{
     width: 150%;
+}
+
+#btnc{
+   color: white;
+   width: 100%;
+   text-align: center;
+    background-color: darkblue;
+
+}
+#btnc:hover{
+   background-color: darkgreen;
+}
+.inputstyle{
+    width: 100%;
+    margin-bottom: 5px;
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th{
+
+    border: 1px solid;
+   width: 100px;
 }

@@ -6,8 +6,9 @@
     <title>Document</title>
     <link rel="stylesheet" href="notpc.css">
 </head>
-<body>
-     <h1 id="h0" style="text-align: right;">Sistema Escolar </h1>
+<body >
+     <h1 id="h0" style="text-align: center;">Sistema Escolar </h1>
+     <div class="divcor">
     <h1> Disciplinas Disponíveis</h1>
      <ol type="">
         <ul type ="square" >
@@ -17,14 +18,17 @@
 
         </ul>   
     </ol>
+    
     <h1>Ordem de Prioeidade</h1>
       <ol class="ul">
         <li> Programação</li>
         <li>Matemática</li>
         <li>Física</li>
       </ol>
-      <h2> Tabela de Notas</h2>
-      <table border="1">
+      </div>
+ <div class="divcor">
+      <h2 > Tabela de Notas</h2>
+      <table  >
         <thead class="hea">
             <td> <center> Nome </center></td>
             <td>  <center> Disciplina</center></td>
@@ -42,19 +46,21 @@
        <th> 18</th>
         </tr>
       </table>
+      </div>
+      <form class="divcor" action="">
       <h1> Formulário de Inscrição</h1>
       <label for=""> Nome:</label>
       <br>
-      <fieldset>Digite seu nome</fieldset>
+      <input class="inputstyle" placeholder="Digite seu nome" type="text" name="Nome" id="">
       <br>
       <label for="Email">Email</label>
-      <fieldset>Digite seu email</fieldset>
+      <input class="inputstyle" placeholder="Digite seu email" type="text" name="email" id="">
       <br>
      <label for="">Idade</label>
-     <input type="number">
+     <input class="inputstyle" type="number" name="Idade">
      <br><p></p>
      <label for="">Disciplina</label>
-     <select name="" id="" class="ta">
+     <select class="inputstyle" name="Disciplina" id="" class="ta">
         <br>
      <option value="Disciplina">Matemática</option>
      <option value="">Programação</option>
@@ -65,16 +71,13 @@
      
      <br><p></p>
      <label for="">Masculino</label> 
-     <input  type="radio" class=" cl" >
+     <input class="inputstyle" type="radio" class=" cl" name="Masculino" >
      <br><p></p>
      <label for="">Feminino</label>
-     <input type="radio" class="cl" >
+     <input class="inputstyle" type="radio" class="cl" name="Feminino">
 <p></p>
-     <fieldset id="cr">
 
-         <label for=""></label>
-        <center> <input  type="submit" value="Cadastrar"></center>
-     </fieldset>
-
+        <button type="submit" id="btnc"> Cadastrar</button>
+</form>
 </body>
 </html>
