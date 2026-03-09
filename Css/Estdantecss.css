@@ -1,0 +1,33 @@
+body{
+
+    background-color: white;
+    
+}
+
+div{
+    color: blue;
+    width: 100%;
+    margin: 5px;
+    padding-top: 10%;
+}
+button{
+    text-align: center;
+    padding-bottom: 1%;
+    color: chartreuse;
+    background-color: green;
+}
+#bt:hover{
+    background-color: black;
+    color: blue;
+}
+table{
+
+    width: 25%;
+}
+img{
+    border-radius: 50%
+}
+tr{
+
+    text-align: left;
+}
