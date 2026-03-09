@@ -1,15 +1,23 @@
 body{
 
-    background-color: white;
+    background-color: gainsboro;
+    
     
 }
 
-div{
+p{
     color: blue;
     width: 100%;
     margin: 5px;
-    padding-top: 10%;
 }
+
+#card{
+    border: 2px solid white;
+    width: 400px;
+    margin: auto;
+    background-color: white;
+}
+
 button{
     text-align: center;
     padding-bottom: 1%;
