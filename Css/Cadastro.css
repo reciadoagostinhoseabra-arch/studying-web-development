@@ -1,0 +1,47 @@
+input{
+
+    width: 300px;
+}
+
+.labelgrande{
+    width: 100%;
+    
+}
+
+
+#azul{
+    color: white;
+    background-color: blue;
+    width: 100%;
+}
+body{
+    background-color: darkgrey;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    
+}
+#tamanho{
+    
+    margin: auto;
+    width: 50%;
+    background-color: white;
+    border: 3px solid white;
+ margin: 10px;
+}
+input{
+
+    width: 99%;
+}
+p{
+    color: white;
+    background-color: blue;
+}
+option:checked{
+    background-color: blue;
+    color: white;
+}
+option:hover{
+    background-color: blue;
+    color: white;
+}
