@@ -1,0 +1,59 @@
+.lista{
+color: white;
+background-color: blue;
+display: flex;
+list-style: none;
+gap: 20px;
+width: 10000px;
+}
+.white{
+
+  color: white;
+}
+h2{
+  color: cornflowerblue;
+}
+.preto{
+  color: black;
+}
+#aa:hover{
+  color: yellow;
+}
+table{
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+th{
+  border: 1px solid;
+}
+td{
+  background-color: blue;
+  width: 100px;
+}
+
+#reciado{
+  margin: auto;
+  width: 400px;
+  border: 2px solid white;
+  background-color: white;
+ margin-left: 20px; 
+}
+body{
+
+  background-color: gainsboro;
+}
+label,input,select{
+  width: 396px;
+}
+
+button{
+  background-color: blue;
+  color: white;
+}
+option:hover{
+
+  color: burlywood;
+  width: 300px;
+  background-color: antiquewhite;
+}
