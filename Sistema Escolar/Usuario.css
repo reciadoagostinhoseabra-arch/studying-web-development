@@ -1,0 +1,49 @@
+.a{
+    width: 200px;
+    
+}
+#b{
+    color: white;
+    background-color: black;
+}
+#b:hover{
+    background-color: green;
+}
+.c{
+    background-color: black;
+    color: white;
+    text-align: left;
+    height: 500px;
+    margin-right: 20%;
+    width: 150px;
+}
+.d{
+ width: 100px;
+ text-align: right;
+}
+#i{
+    background-color: darkgray;
+}
+.d{
+    width: 100px;
+    background-color: white;
+    
+}
+#e{
+    
+    align-items: flex-start;
+display: inline;
+display: flex;
+margin-top: 0;
+   
+}
+table{
+    text-align: center;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+
+    border: 1px solid;
+   width: px;
+}
