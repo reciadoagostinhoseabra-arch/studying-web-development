@@ -47,3 +47,14 @@ th{
     border: 1px solid;
    width: px;
 }
+
+#cc{
+    position: absolute;
+    left: 2px;
+}
+
+#e{
+    position: absolute;
+    left: 200px;
+    width: 500px;
+}
