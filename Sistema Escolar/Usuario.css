@@ -1,3 +1,11 @@
+
+th{
+    background-color: white;
+}
+body{
+background-color: darkgray;
+
+}
 .a{
     width: 200px;
     
@@ -35,7 +43,7 @@
 display: inline;
 display: flex;
 margin-top: 0;
-   
+   width: 100px;
 }
 table{
     text-align: center;
@@ -53,8 +61,12 @@ th{
     left: 2px;
 }
 
-#e{
+.e{
     position: absolute;
     left: 200px;
     width: 500px;
+}
+td{
+    color: white;
+    background-color: black;
 }
