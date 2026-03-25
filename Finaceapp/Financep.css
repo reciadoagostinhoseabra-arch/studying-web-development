@@ -1,0 +1,50 @@
+
+    body{
+    background-color: darkgray;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    display: flex;
+    margin: auto;
+
+
+    }
+    .direita,a{
+        width: 300px;
+        height: 100vh;
+        background-color: black;
+        color: white;
+        padding: 10x;
+        cursor: pointer;
+        text-decoration:none ;
+    }
+    .valores{
+        flex: 1;
+        padding: 20px;
+        background-color: darkgray;
+    }
+    .dir{
+        width: 200px;
+        background-color: white; 
+        padding: 5px;
+        margin: 5px;
+        display: inline-block;
+        border-radius: 4px;
+        box-shadow:0px 5px 10px gray;
+    }
+    .relatorio{
+        padding: 20px;
+        flex: 1
+        ;
+
+    }
+
+    #cor{
+        color: white;
+        background-color: darkgreen;
+        width: 100px;
+    }
+
+    #ave{
+        width: 1000px;
+        background-color: white;
+        padding: 10px;
+    }

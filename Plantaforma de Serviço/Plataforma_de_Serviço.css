@@ -1,0 +1,60 @@
+    .linha_reta{
+        display: flex;
+        gap: 20px;
+        color: white;
+        background-color: black;
+        width: 100%;
+        cursor: pointer;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: none;
+        }
+        .verde{
+            color: green;
+        }
+        button{
+            text-align: left;
+            color: white;
+            background-color: black;
+            margin: 5px;
+        }
+    .linha_reta:hover{
+
+    color: blue;
+    }
+    .orizontal{
+        
+        justify-content: center;
+        border-radius: 20px;
+        background-color: white;
+        width: 300px;
+        padding: 40px;
+        flex:1;
+        padding:20px;
+        background:#f1f5f9;
+
+        }
+    body{
+        background-color: darkgrey;
+    }
+    input,textarea,select{
+        margin: 5px;
+        width: 100%;
+        width: 96%;
+        padding: 5px;
+    }
+    .Publicar{
+        background-color: white;
+        width: 50%;
+    }
+    option{
+    background-color: burlywood;
+    }
+    .orizontal{
+    flex:1;
+    padding:20px;
+    background:#f1f5f9;
+    display: block;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    }
