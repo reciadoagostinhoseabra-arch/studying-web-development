@@ -1,0 +1,114 @@
+body{
+margin:0;
+font-family:Arial;
+scroll-behavior:smooth;
+}
+
+/* MENU FIXO */
+
+.nav{
+position:fixed;
+width:100%;
+background:#0f172a;
+padding:15px;
+top:0;
+z-index:1000;
+}
+
+.nav a{
+color:white;
+margin-right:20px;
+text-decoration:none;
+}
+
+.nav a:hover{
+color:#38bdf8;
+}
+
+/* HERO */
+
+.hero{
+height:100vh;
+background:linear-gradient(to right, #0f172a, #1e293b);
+color:white;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+flex-direction:column;
+}
+
+.hero h1{
+font-size:40px;
+}
+
+.hero button{
+margin-top:20px;
+padding:10px 20px;
+background:#38bdf8;
+border:none;
+color:white;
+cursor:pointer;
+}
+
+.hero button:hover{
+background:#22c55e;
+}
+
+/* SEÇÕES */
+
+.section{
+padding:80px 20px;
+text-align:center;
+}
+
+/* CARDS */
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+}
+
+.card{
+background:white;
+width:250px;
+margin:10px;
+padding:20px;
+border-radius:10px;
+box-shadow:0px 2px 5px gray;
+transition:0.3s;
+}
+
+.card:hover{
+transform:scale(1.05);
+}
+
+/* PROJETOS */
+
+.projeto{
+background:#f1f5f9;
+padding:20px;
+margin:10px;
+border-radius:10px;
+}
+
+/* FORM */
+
+input, textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+.btn{
+background:#0f172a;
+color:white;
+padding:10px;
+border:none;
+cursor:pointer;
+}
+
+.btn:hover{
+background:#22c55e;
+}
