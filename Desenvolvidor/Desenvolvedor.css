@@ -1,0 +1,54 @@
+body{
+background-color: white;
+}
+.cor{
+background-color: midnightblue;
+}
+.direita{
+    
+    color: white;
+    
+   cursor: pointer;
+   text-decoration: none;
+}
+
+.c{
+    color: white;
+    text-align: center;
+}
+.f{
+    background-color: cyan;
+    text-align: center;
+}
+.d{
+   
+}
+.i{
+    text-align: center;
+}
+.j{
+    background-color: gainsboro;
+    width: 100hv;
+    display: 0 solid block;
+    text-align: center;
+    padding: 5px;
+    margin: 2px;
+}
+h2{
+    text-align: center;
+}
+input{
+    width: 1000vh;
+    margin: 5px;
+    
+}
+#s{
+    margin: 4px;
+    color: white;
+    background-color: black;
+}
+#w{
+    padding: 
+    5px;
+    background-color: black;
+}
