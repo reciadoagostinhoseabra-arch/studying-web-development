@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema Escolar</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark text-light">
+<div class="container py-5">
+
+    <!-- Título -->
+    <div class="text-center mb-5">
+        <h1 class="fw-bold text-info">Sistema Escolar</h1>
+        <p class="text-secondary">Gestão moderna de estudantes</p>
+    </div>
+
+    <div class="row g-4">
+
+        <!-- Disciplinas -->
+        <div class="col-md-6">
+            <div class="card bg-secondary text-light shadow-lg border-0 rounded-4">
+                <div class="card-body">
+                    <h4 class="card-title text-info">📚 Disciplinas Disponíveis</h4>
+                    <ul class="list-group list-group-flush mt-3">
+                        <li class="list-group-item bg-secondary text-light">Matemática</li>
+                        <li class="list-group-item bg-secondary text-light">Programação</li>
+                        <li class="list-group-item bg-secondary text-light">Física</li>
+                    </ul>
+
+                    <h5 class="mt-4 text-warning">🔥 Ordem de Prioridade</h5>
+                    <ol class="mt-2">
+                        <li>Programação</li>
+                        <li>Matemática</li>
+                        <li>Física</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tabela -->
+        <div class="col-md-6">
+            <div class="card bg-secondary text-light shadow-lg border-0 rounded-4">
+                <div class="card-body">
+                    <h4 class="text-info mb-3">📊 Tabela de Notas</h4>
+
+                    <table class="table table-dark table-hover table-bordered text-center align-middle">
+                        <thead class="table-info text-dark">
+                            <tr>
+                                <th>Nome</th>
+                                <th>Disciplina</th>
+                                <th>Nota</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ana</td>
+                                <td>Matemática</td>
+                                <td class="fw-bold text-success">15</td>
+                            </tr>
+                            <tr>
+                                <td>Pedro</td>
+                                <td>Programação</td>
+                                <td class="fw-bold text-success">18</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <!-- Formulário -->
+        <div class="col-12">
+            <div class="card bg-secondary text-light shadow-lg border-0 rounded-4">
+                <div class="card-body">
+                    <h4 class="text-info mb-4">📝 Formulário de Inscrição</h4>
+
+                    <form>
+                        <div class="row g-3">
+
+                            <div class="col-md-6">
+                                <label class="form-label">Nome</label>
+                                <input type="text" class="form-control" placeholder="Digite seu nome">
+                            </div>
+
+                            <div class="col-md-6">
+                                <label class="form-label">Email</label>
+                                <input type="email" class="form-control" placeholder="Digite seu email">
+                            </div>
+
+                            <div class="col-md-4">
+                                <label class="form-label">Idade</label>
+                                <input type="number" class="form-control">
+                            </div>
+
+                            <div class="col-md-4">
+                                <label class="form-label">Disciplina</label>
+                                <select class="form-select">
+                                    <option>Matemática</option>
+                                    <option>Programação</option>
+                                    <option>Física</option>
+                                </select>
+                            </div>
+
+                            <div class="col-md-4">
+                                <label class="form-label d-block">Gênero</label>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="genero">
+                                    <label class="form-check-label">Masculino</label>
+                                </div>
+
+                                <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="genero">
+                                    <label class="form-check-label">Feminino</label>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="text-end mt-4">
+                            <button class="btn btn-info px-4 fw-bold">
+                                🚀 Cadastrar
+                            </button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
