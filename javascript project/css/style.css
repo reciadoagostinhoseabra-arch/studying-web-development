@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator{
+    width: 340px;
+    border-radius: 20px;
+    padding: 20px;
+    background: #fff;
+}
+
+.input-box{
+    height: 50px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.btn{
+    height: 55px;
+    font-size: 18px;
+    border-radius: 12px;
+}
