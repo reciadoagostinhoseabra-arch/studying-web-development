@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="Calculator">
+        <input id="inputNumber" name="inputNumber" type="text" class="form-control input-box" placeholder="Primeiro número">
+        <div class="row g-2  mt-2">
+            <div class="col-3"><button  class="btn btn-danger w-100">C</button></div>
+            <div class="col-3"><button onclick="writeOnInput('%')" class="btn btn-secondary w-100">%</button></div>
+            <div class="col-3"><button onclick="writeOnInput('/')" class="btn btn-secondary w-100">/</button></div>
+            <div class="col-3"><button onclick="writeOnInput('*')" class="btn btn-warning w-100">*</button></div>
+
+            <div class="col-3"><button onclick="writeOnInput('7')" class="btn btn-light w-100">7</button></div>
+            <div class="col-3"><button onclick="writeOnInput('8')" class="btn btn-light w-100">8</button></div>
+            <div class="col-3"><button onclick="writeOnInput('9')" class="btn btn-light w-100">9</button></div>
+            <div class="col-3"><button onclick="writeOnInput('-')" class="btn btn-warning w-100">-</button></div>
+
+
+            <div class="col-3"><button onclick="writeOnInput('4')" class="btn btn-light w-100">4</button></div>
+            <div class="col-3"><button onclick="writeOnInput('5')" class="btn btn-light w-100">5</button></div>
+            <div class="col-3"><button onclick="writeOnInput('6')" class="btn btn-light w-100">6</button></div>
+            <div class="col-3"><button onclick="writeOnInput('+')" class="btn btn-warning w-100">+</button></div>
+
+            <div class="col-3"><button onclick="writeOnInput('3')" class="btn btn-light w-100">3</button></div>
+            <div class="col-3"><button onclick="writeOnInput('2')" class="btn btn-light w-100">2</button></div>
+            <div class="col-3"><button onclick="writeOnInput('1')" class="btn btn-light w-100">1</button></div>
+            <div class="col-3"><button onclick="writeOnInput(',')" class="btn btn-warning w-100">,</button></div>
+
+            <div class="col-3"><button class="btn btn-success w-100">=</button></div>
+
+            <div class="col-6"><button class="btn btn-warning w-100">0</button></div>
+            <div onclick="writeOnInput('\\')" class="col-3"><button class="btn btn-warning w-100">\</button></div>
+        </div>
+    </div>
+
+    <script>
+        function writeOnInput(value){
+            inputValue = document.getElementById("inputNumber").value;
+            document.getElementById("inputNumber").value = inputValue + value;
+        }
+    </script>
+
+</body>
+</html>
