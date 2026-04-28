@@ -10,11 +10,56 @@
 
     <script>
 
-        cont=1;
-        do{
-            console.log(cont)
-            cont=cont+1;
-        }while(cont<=10);
+       function divisores(numero) {
+          for(cont=1;cont<=numero;cont++){
+            if(numero % cont == 0){
+                console.log(cont);
+            }
+          }
+       }
+
+       function qtdDivisores(numero){
+            somaDiv =0;
+            for(cont=1;cont<=numero;cont++){
+                if(numero % cont == 0){
+                    somaDiv++;
+                }
+            }
+            return somaDiv;
+       }
+
+       function ePrimoOuComposto(numero){
+            qtdD = qtdDivisores(numero);
+            if(qtdD==2){
+                return "o numero "+numero+ " é primo"
+            }else{
+                 return "o numero "+numero+ " é composto"
+            }
+       }
+
+       function contaIntervalo(n1,n2){
+            if(n1<n2){
+                for(cont=n1;cont<=n2;cont++){
+                    console.log(cont);
+                }
+            }else if(n1>n2){
+                for(cont=n1;cont>=n2;cont--){
+                    console.log(cont);
+                }
+            }
+       }
+
+       function maiorrEntre(a,b,c){
+           if(a>=b && a>=c){
+                return a+" é o maior"
+           }else if(b>=a && b>=c){
+                return b+" é o maior"
+           }else if(c>=a && c>=b){
+                return c+" é o maior"
+           }else{
+             return "são iguais"
+           }
+       }
         
        
     </script>
