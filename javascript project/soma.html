@@ -54,11 +54,189 @@
                              }
 
                 
-               function parinpar(n)
+               function parinpar(n){
+               
+                if(n % 2 !==0){
+                        return (" o Numero é inpar ")
+                }else
+                      return( "O numero é par ")
+               }
+              
+               function somatres(a, b, c) {
+               
+                if(a === b && b === c ){
+                        return ( " Os Numero são iguais " );
+                }
+                else if( a>=b && a>=c ){
+                return ( " O maior é :",a)
+                      }
+                 else if( b>=a && b>=c ){
+                return ( " O maior é ",b);
+                      }
+                       else if ( b>=c && b>=c ){
+                return ( " O maior é ",c);
+                      }
+               }
 
-                let = n  
+               
 
+               function idade(a){
+                   if(a<10){
+                        return("criança")
+                   }
+                   else if(a>=10 && a<18 ){
+                        return("Adolescente")
+                   }
+                   else if(a>17 && a<59){
+                   return("Adulto")
+                     }
+                     else if (a>=60){
+                        return ("Idoso")
+                     }
+               }
+
+               function negativo(a){
+                   if(a<0){
+                        return(a,"Negatio")
+                   }
+                   else if(a>=1 ){
+                        return(a,"Positivo")
+                   }
+                   else {
+                   return(" 0 o numero é 0")
+                     }
+                     
+               }
+               
+               function negativo(a){
+                   if(a<0){
+                        return(a,"Negatio")
+                   }
+                   else if(a>=1 ){
+                        return(a,"Positivo")
+                   }
+                   else {
+                   return(" 0 o numero é 0")
+                     }
+                     
+               }
+               function bssexto(a){
+                   if(ano % 4 ==0 && ano % 100 !==0  ){
+                        return("Bissexto")
+                   }
+                   else {
+                        return("Não é bissexto")
+                   }
+                   
+               }
+                function senha(usuario,senha){
+                   if(usuario === "admin" && senha === "1234"  ){
+                        return("Acesso permitido")
+                   }
+                   else {
+                        return("Acesso não permitido")
+                   }
+                   
+               }
+               
+                 
+               function verifcanumero( numero ){
+
+                    if(numero % 3 === 0 && numero % 5 === 0){
+                    return("é multiplo de 3 e de 5")
+                  }else if(numero % 3 === 0){
+                    return("É multiplo de 3")
+                  }
+                  else if( numero % 5 === 0){
+                    return("é multiplo de 5")
+                  }else{
+                    return("Não é multiplo de 3 nem de 5")
+                    }
+               }
+             
+              
+             function loopfor(){
+              for(cont=1;cont>=10;cont--){
+             console.log(cont)
+          } 
+               }
+               function loopwhile(){
+               cont=10
+               while(cont>=1){
+                    console.log(cont)
+                    cont--;
+               } 
+               }
+
+               function loopdowhile(){
+                  cont=10
+                  do{
+                    console.log(cont)
+                     cont -- ;
+                  }while(cont<=10)
+
+               }
+               function contagem(a){
+              for(cont=1;cont<=a;cont++){
+             console.log(cont)
+          } 
+         } 
+         let cont = 0 ;
+         function mostranumero(numero){
+        for(let a=1; a<= numero; a++){
+          if(numero % a == 0){
+               console.log(a);
+               cont ++;
+             if(cont == 2 ){
+               cont=0 ;
+               break
+              
+               
+            }
+          }
+        }
+
+         }
+
+         function somanumero() {
+                   soma = 0 ;
+                 for( a= 2; a <= 5; a++){
+                    soma = soma + a ;
+                 }
+                 console.log(soma)
+
+         }
+         function factorial(a){
+                  fact=1
+               for (b=1; b<=a ; b++ ){
+                    fact = fact*b ; 
+               }         
+                return(fact)
+
+         }
+
+         function somapares(a,b){
+                        soma=0 ;   
+               for (let c =a; c<=b ; c++ ){
+                    
+                  if(c % 2 == 0) {
+                   soma = soma+ c ; 
+  
+               }   
+               }
+                return(soma);
+         }
+                 
+           for(cont=1;cont<=10;cont++){
+            if(cont%2==0){
+                continue;
+            }
+            console.log(cont);
+        }
+               
         </script>
+
+      
 
     </body>
     </html>
