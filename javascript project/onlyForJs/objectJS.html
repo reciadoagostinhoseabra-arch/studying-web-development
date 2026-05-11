@@ -1,0 +1,60 @@
+<script>
+
+    let car = {
+        type: "Automatico",
+        model: "xtete600",
+        color: "preto",
+        marca:  "tesla"
+    };
+
+    let marca = car.marca;
+    let tipo = car.type;
+    let cor = car.color;
+
+    car.marca = "toyota"
+    car.type = "manual"
+    car.color ="amarelo"
+    delete car.color;
+
+
+    //console.log(car["color"]);
+    //console.log(car.marca);
+
+     let persons = {
+        nome: "lukoki",
+        idade:  12,
+        genero:  "masculino",
+        boca: {
+            dente: "grande",
+            lingua: "pequena",
+            gingiva: "podre"
+        }
+     }
+
+     //console.log(person.boca.dente)
+     //console.log(person["boca"]["lingua"])
+
+     let pessoa = {
+        primeiroNome: "Jurelma",
+        ultimoNome: "Antonio",
+        idade:  20,
+        nomeCompleto: function (){
+            return this.primeiroNome+ " "+this.ultimoNome;
+        }
+     }
+
+     /*console.log(pessoa.primeiroNome)
+     console.log(pessoa.ultimoNome)
+     console.log(pessoa.idade)
+     console.log(pessoa.nomeCompleto())*/
+     
+     let lukoki = pessoa;
+
+    console.log(lukoki.primeiroNome)
+     console.log(lukoki.ultimoNome)
+     console.log(lukoki.idade)
+     console.log(lukoki.nomeCompleto())
+
+     
+
+</script>
