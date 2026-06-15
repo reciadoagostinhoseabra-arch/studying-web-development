@@ -9,9 +9,9 @@
 </head>
 <body>
     <div class="Calculator">
-        <input id="inputNumber" name="inputNumber" type="text" class="form-control input-box" placeholder="Primeiro número">
+        <input id="inputNumber" name="inputNumber" type="text" class="form-control input-box" placeholder="Primeiro número" readonly>
         <div class="row g-2  mt-2">
-            <div class="col-3"><button  class="btn btn-danger w-100">C</button></div>
+            <div class="col-3"><button onclick="apagar()" class="btn btn-danger w-100">C</button></div>
             <div class="col-3"><button onclick="writeOnInput('%')" class="btn btn-secondary w-100">%</button></div>
             <div class="col-3"><button onclick="writeOnInput('/')" class="btn btn-secondary w-100">/</button></div>
             <div class="col-3"><button onclick="writeOnInput('*')" class="btn btn-warning w-100">*</button></div>
@@ -32,7 +32,7 @@
             <div class="col-3"><button onclick="writeOnInput('1')" class="btn btn-light w-100">1</button></div>
             <div class="col-3"><button onclick="writeOnInput(',')" class="btn btn-warning w-100">,</button></div>
 
-            <div class="col-3"><button class="btn btn-success w-100">=</button></div>
+            <div class="col-3"><button onclick="calculate()" class="btn btn-success w-100">=</button></div>
 
             <div class="col-6"><button class="btn btn-warning w-100">0</button></div>
             <div onclick="writeOnInput('\\')" class="col-3"><button class="btn btn-warning w-100">\</button></div>
@@ -40,10 +40,22 @@
     </div>
 
     <script>
+
         function writeOnInput(value){
             inputValue = document.getElementById("inputNumber").value;
             document.getElementById("inputNumber").value = inputValue + value;
         }
+
+        function calculate(){
+            inputValue = document.getElementById("inputNumber").value;
+            result = eval(inputValue)
+            result = eval(inputValue)
+            document.getElementById("inputNumber").value = inputValue + "=" +result ;
+        }
+        function apagar(){
+            document.getElementById("inputNumber").value = ""
+        }
+            
     </script>
 
 </body>
